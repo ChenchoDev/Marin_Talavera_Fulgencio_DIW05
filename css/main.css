@@ -38,8 +38,7 @@
             .container {
                 max-height: 100vh;
             }
-            
-            @media screen and (max-width: 1225px) and (min-width: 1045px) {
+            /* @media screen and (max-width: 1225px) and (min-width: 1045px) {
                 .priority-5 {
                     display: none;
                 }
@@ -97,6 +96,12 @@
                 .priority-6 {
                     display: none;
                 }
+            }*/
+            
+            @media screen and (min-width: 992px) {
+                .card_responsive {
+                    display: none;
+                }
             }
             
             .text-center {
@@ -117,4 +122,8 @@
                 text-decoration: inherit;
                 font-family: "Font Awesome 5 Free";
                 font-weight: 900;
+            }
+            
+            .image-responsive {
+                width: 100%;
             }
