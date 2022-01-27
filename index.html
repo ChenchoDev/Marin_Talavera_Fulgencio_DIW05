@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Página de inicio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="login">
+    <div class="container-fluid w-75 h-100 bg-white mt-5  rounded-3 shadow">
+        <div class="row align-items-lg-stretch pb-10 flex-grow-1">
+            <div class="col bg-login my-2 mx-2 d-none d-md-block">
+                <!--Oculto la imagen y solo la hago visible en dispositivos lg -->
+            </div>
+            <div class="col py-4">
+                <h2 class="fw-bold text-center ">Bienvenido</h2>
+                <!--Inicio formulario-->
+                <form action="./principal.html">
+                    <div class="mb-4">
+
+
+                        <input type="email" class="form-control" name="email" placeholder="&#xf007; Correo electrónico">
+                    </div>
+                    <div class="mb-4">
+                        <input type="password" class="form-control" name="password" placeholder=" Contraseña">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" id="boton" class="btn btn-primary ">Iniciar Sesión</button>
+                    </div>
+                    <!--Inicio registro-->
+                    <div class="row">
+                        <!--Col Dcha botones-->
+                        <div class="col">
+                            <!--Botón Google-->
+                            <button class="btn btn-outline-danger w-100 my-2">
+                                <i class="fab fa-google d-none d-sm-inline"></i> Google
+                            </button>
+                            <!--Botón Registro-->
+                            <button class="btn btn-outline-dark w-100 my-2">
+                                <i class="fas fa-arrow-alt-circle-right d-none d-sm-inline"></i> Regístrate
+                            </button>
+                        </div>
+                        <!--Col Izda botones-->
+                        <div class="col">
+                            <!--Botón Facebook-->
+                            <button class="btn btn-outline-primary w-100 my-2">
+                                <i class="fab fa-facebook d-none d-sm-inline"></i> Facebook
+                            </button>
+                            <!--Recuperar passwd-->
+                            <div class="my-1 ">
+                                <span>¿No tienes cuenta?</span><br>
+                                <span><a href="#">Recuperar Password</a></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
