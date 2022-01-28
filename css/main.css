@@ -97,12 +97,17 @@
                     display: none;
                 }
             }*/
-            
-            @media screen and (min-width: 992px) {
+            /*@media screen and (min-width: 992px) and (min-width:575px) {
                 .card_responsive {
                     display: none;
                 }
             }
+            
+            @media screen and (min-width: 1500px) and (max-width: 575px) {
+                .acordeon {
+                    display: none;
+                }
+            }*/
             
             .text-center {
                 width: auto;
