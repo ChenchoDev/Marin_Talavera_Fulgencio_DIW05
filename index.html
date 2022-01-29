@@ -15,49 +15,47 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="login">
+<body class="login p-4">
     <div class="container-fluid w-75 h-100 bg-white mt-5  rounded-3 shadow">
         <div class="row align-items-lg-stretch pb-10 flex-grow-1">
             <div class="col bg-login my-2 mx-2 d-none d-md-block">
                 <!--Oculto la imagen y solo la hago visible en dispositivos lg -->
             </div>
-            <div class="col py-4">
+            <div class="col p-4">
                 <h2 class="fw-bold text-center ">Bienvenido</h2>
                 <!--Inicio formulario-->
                 <form action="./principal.html">
                     <div class="mb-4">
-
-
-                        <input type="email" class="form-control" name="email" placeholder="&#xf007; Correo electrónico">
+                        <input type="email" class="form-control border-dark shadow " name="email" placeholder="&#xf007; Correo electrónico">
                     </div>
                     <div class="mb-4">
-                        <input type="password" class="form-control" name="password" placeholder=" Contraseña">
+                        <input type="password" class="form-control border-dark shadow" name="password" placeholder=" Contraseña">
                     </div>
                     <div class="mb-4 form-check">
-                        <input type="checkbox" name="connected" class="form-check-input">
+                        <input type="checkbox" name="connected" class="form-check-input ">
                         <label for="connected" class="form-check-label">Mantenerme conectado</label>
                     </div>
                     <div class="d-grid">
-                        <button type="submit" id="boton" class="btn btn-primary ">Iniciar Sesión</button>
+                        <button type="submit" id="boton" class="btn btn-primary shadow focus">Iniciar Sesión</button>
                     </div>
                     <!--Inicio registro-->
                     <div class="row">
                         <!--Col Dcha botones-->
                         <div class="col">
                             <!--Botón Google-->
-                            <button class="btn btn-outline-danger w-100 my-2">
-                                <i class="fab fa-google d-none d-sm-inline"></i> Google
+                            <button class="btn btn-outline-danger w-100 my-2 shadow">
+                                <img src="./img/google.png" alt="icon-google" srcset=""> Google
                             </button>
                             <!--Botón Registro-->
-                            <button class="btn btn-outline-dark w-100 my-2">
+                            <button class="btn btn-outline-dark w-100 my-2 shadow">
                                 <i class="fas fa-arrow-alt-circle-right d-none d-sm-inline"></i> Regístrate
                             </button>
                         </div>
                         <!--Col Izda botones-->
                         <div class="col">
                             <!--Botón Facebook-->
-                            <button class="btn btn-outline-primary w-100 my-2">
-                                <i class="fab fa-facebook d-none d-sm-inline"></i> Facebook
+                            <button class="btn btn-outline-primary w-100 my-2 shadow">
+                                <img src="./img/facebook.png" alt="icon-facebook" srcset=""> Facebook
                             </button>
                             <!--Recuperar passwd-->
                             <div class="my-1 ">
