@@ -26,11 +26,16 @@
                 <!--Inicio formulario-->
                 <form action="./principal.html">
                     <div class="mb-4">
-                        <input type="email" class="form-control border-dark shadow " name="email" placeholder="&#xf007; Correo electrónico">
+                        <div class="input-group mb-3 border-dark shadow">
+                            <span class="input-group-text " id="basic-addon1"><img src="./img/user.png" alt="icon-user" srcset=""></span>
+                            <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 border-dark shadow">
+                            <span class="input-group-text" id="basic-addon1"><img src="./img/key.png" alt="icon-key" srcset=""></span>
+                            <input type="text" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
                     </div>
-                    <div class="mb-4">
-                        <input type="password" class="form-control border-dark shadow" name="password" placeholder=" Contraseña">
-                    </div>
+
                     <div class="mb-4 form-check">
                         <input type="checkbox" name="connected" class="form-check-input ">
                         <label for="connected" class="form-check-label">Mantenerme conectado</label>
@@ -66,6 +71,7 @@
                         </div>
                     </div>
                 </form>
+                <!--fin formulario-->
             </div>
         </div>
     </div>
