@@ -59,3 +59,7 @@
             .image-responsive {
                 width: 100%;
             }
+            
+            .tarjeta {
+                max-width: 540px;
+            }
